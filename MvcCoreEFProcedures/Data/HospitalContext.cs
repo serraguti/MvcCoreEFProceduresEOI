@@ -8,6 +8,6 @@ namespace MvcCoreEFProcedures.Data
         public HospitalContext(DbContextOptions<HospitalContext> options)
             :base(options) { }
         public DbSet<Enfermo> Enfermos { get; set; }
-        //public DbSet<Empleado> Empleados { get; set; }
+        public DbSet<Empleado> Empleados { get; set; }
     }
 }
